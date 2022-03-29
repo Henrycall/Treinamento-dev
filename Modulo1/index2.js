@@ -7,12 +7,12 @@ async function getUser() {
             url: `https://itlean.atlassian.net/rest/api/2/user/search?query`,
             headers: { 
                 'Accept': '*/*', 
-                'Authorization': `Basic aGVucnkuY2FsbGVyYUBpdGxlYW4uY29tLmJyOlR1YzFOMkpWcUZKMnF3cXdFNWlhNzRCRg==`,
+                'Authorization': `Basic `,
                 'Content-Type': 'application/json'
             },
             auth: {
-                username: 'henry.callera@itlean.com.br',
-                password: 'Tuc1N2JVqFJ2qwqwE5ia74BF'
+                username: 'your email',
+                password: 'your token'
             }
          
 }
