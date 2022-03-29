@@ -1,6 +1,6 @@
 var axios = require('axios');
 
-async function getUser() {
+async function createTask() {
     try {
         const dados = {
             method: 'post',
@@ -34,4 +34,4 @@ async function getUser() {
         console.error(error);
       }
 }
-getUser()
+createTask()
